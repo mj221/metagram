@@ -13,9 +13,10 @@ Preview:
 
 
 <hr style="border:2px solid gray"> </hr>
+<p>
 Access here with a Ethereum compatible browser (MetaMask) at Goerli testnet:
-<br/>
+
 ```
 https://mj221.github.io/metagram/
 ```
-<br/>
+</p>
