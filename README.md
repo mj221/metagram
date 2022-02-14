@@ -6,10 +6,13 @@ Currently runs on Goerli test network. Tipping can be done with fake ether.
 ```
 Contract Address: https://goerli.etherscan.io/address/0xf58db6d6e7e1faa2423feb294a6f4feaef8dffb2
 ```
-
+<hr style="border:2px solid gray"> </hr>
 Preview:
-
 ![Screen Shot 2022-02-14 at 10 13 11 am](https://user-images.githubusercontent.com/50122869/153782207-476c74a4-5455-4334-823d-26afddcdc5a6.png)
+
+<hr style="border:2px solid gray"> </hr>
+Animated tutorial:
+![metagram](https://user-images.githubusercontent.com/50122869/153784221-816d4a2f-229b-46dc-bafe-f75fdbbcb503.gif)
 
 
 <hr style="border:2px solid gray"> </hr>
