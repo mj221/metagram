@@ -1,7 +1,7 @@
 # Meta Gram
 Meta Gram. A fully decentralised, immutable and censorship resistant social media platform inspired by Instagram. Built with Ethereum smart contracts, IPFS and ReactJS. Can upload images and videos, tip other creative minds and see what others have posted!
 
-Currently runs on Goerli test network. Tipping can be done with fake ether. 
+Currently runs on Goerli test network. Tipping can be done with testnet ether. 
 
 ```
 Contract Address: https://goerli.etherscan.io/address/0xf58db6d6e7e1faa2423feb294a6f4feaef8dffb2
