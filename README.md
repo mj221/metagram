@@ -17,8 +17,7 @@ Contract Address: https://goerli.etherscan.io/address/0xf58db6d6e7e1faa2423feb29
 <hr style="border:2px solid gray"> Animated showcase: </hr>
 </p>
 
-
-![metagram](https://user-images.githubusercontent.com/50122869/153784221-816d4a2f-229b-46dc-bafe-f75fdbbcb503.gif)
+![metagram](https://user-images.githubusercontent.com/50122869/153784752-f9041b7f-fa93-4514-8c28-348dbe0c1ead.gif)
 
 
 <hr style="border:2px solid gray"> </hr>
