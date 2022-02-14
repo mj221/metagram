@@ -12,6 +12,7 @@ Preview:
 ![Screen Shot 2022-02-14 at 10 13 11 am](https://user-images.githubusercontent.com/50122869/153782207-476c74a4-5455-4334-823d-26afddcdc5a6.png)
 
 
+<hr style="border:2px solid gray"> </hr>
 Access here with a Ethereum compatible browser (MetaMask) at Goerli testnet:
 <br/>
 ```
