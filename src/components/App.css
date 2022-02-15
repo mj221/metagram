@@ -13,6 +13,13 @@
     margin-top: 70px;
 }
 
+.mt-4_3{
+    margin-top: 43px;
+}
+
+.mt-50{
+    margin-top: 50vh;
+}
 .textshadow {
     color: white;
     text-shadow: 2px;
