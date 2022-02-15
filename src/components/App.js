@@ -8,6 +8,8 @@ import Main from './Main'
 
 import detectEthereumProvider from '@metamask/detect-provider'
 
+import { BoxLoading } from 'react-loadingg';
+
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient({host: 'ipfs.infura.io', port: 5001, protocol: 'https'})
 
@@ -218,17 +220,17 @@ class App extends Component {
     />
 
     return (
-      <div >
+      <div>
         <Navbar account={this.state.account} loadWeb3= {this.loadWeb3} loadBlockchainData= {this.loadBlockchainData.bind(this)}/>
       
         <div>
           { this.state.loading
-          ? <div id="loader" className="text-center mt-5"><p>Loading...</p></div>
+          ? <div style={{height: '100vh'}} id="loader" className="text-center d-flex align-items-center justify-content-center"><BoxLoading/></div>
           : content
           }
+          
         </div>
-      
-      
+    
       </div>
     );
   }
