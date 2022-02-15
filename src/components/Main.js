@@ -6,6 +6,13 @@ import EditIcon from '@material-ui/icons/Edit';
 import HomeIcon from '@material-ui/icons/Home';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import LazyLoad from 'react-lazyload';
+
+import 'react-lazy-load-image-component/src/effects/blur.css';
+ 
+
 import { Button, Modal, Dropdown } from 'react-bootstrap';
 
 import './App.css'
@@ -21,7 +28,8 @@ class Main extends Component {
       userPostState: this.props.userPostState,
       currentAuthor: this.props.account,
       fabVisible: false,
-      playVideo: 'false'
+      playVideo: 'false',
+      theme: 'white'
     }
   }
 
@@ -46,6 +54,11 @@ class Main extends Component {
       bottom: 20,
       position: 'fixed'
     };
+    const fabStyle5 = {
+      right: 20,
+      top: 50,
+      position: 'fixed'
+    };
     const identiconStyle ={
       width: 45,
       height: 45,
@@ -54,6 +67,8 @@ class Main extends Component {
       borderWidth: 2,
       borderColor: "grey"
     }
+
+
     var dropDownOptions = ["LATEST", "EARLIEST", "MOST TIPPED", "LEAST TIPPED"]
     
     const scrollToTop = () => {
@@ -71,8 +86,8 @@ class Main extends Component {
                    <h2>Today's Gram</h2>}</div>
     return (
       
-      <div className="container-fluid mt-5" onScroll={()=>console.log("Hello world")}>
-        <div className="">
+      <div className="container-fluid mt-4_3" style={{background: this.state.theme}}>
+        <div>
           <div>
             <Fab style={fabStyle} 
               aria-label="edit"
@@ -119,6 +134,20 @@ class Main extends Component {
               <ArrowDropUpIcon/>
             </Fab>
           </div>
+          <div>
+            <Fab style={Object.assign({}, fabStyle5, {background: this.state.theme, borderColor: "grey"})} 
+              aria-label="toggleTheme"
+              size= "small"
+              onClick={()=> {
+                this.state.theme === "white" 
+                ? 
+                this.setState({theme: 'orange'})
+                
+                :this.setState({theme: 'white'})
+              }}>
+            </Fab>
+          </div>
+
           
         </div>
         
@@ -266,7 +295,7 @@ class Main extends Component {
                                                                       this.setState({contentFormat: image.format})
                                                                       }}>
                               <p className="text-center">
-                                {image.format === "image"
+                                {/* {image.format === "image"
                                 ? <img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{maxWidth: '420px'}}/>
                                 : 
                                 <video 
@@ -274,7 +303,16 @@ class Main extends Component {
                                   src={`https://ipfs.infura.io/ipfs/${image.hash}`} 
                                   style={{maxWidth: '420px'}}                                  
                                   controls>
-                                </video>}
+                                </video>} */}
+                                {image.format === "image"
+                                ? <LazyLoadImage effect="blur" src={`https://ipfs.infura.io/ipfs/${image.hash}`}/>
+                                : 
+                                <LazyLoad><video 
+                                  className="embed-responsive embed-responsive-16by9 ml-1" 
+                                  src={`https://ipfs.infura.io/ipfs/${image.hash}`} 
+                                  style={{maxWidth: '420px'}}                                  
+                                  controls>
+                                </video></LazyLoad>}
                               </p>
                             </div>
               
