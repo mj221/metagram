@@ -23,5 +23,5 @@ https://mj221.github.io/metagram/
 ```
 </p>
 
-### Roadmap
-`Add DAO for reporting and removing harmful content through consensus voting.`
+## Roadmap
+#### Add DAO for reporting and removing harmful content through consensus voting []
