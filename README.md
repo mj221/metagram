@@ -22,3 +22,6 @@ Access here with a Ethereum compatible browser (MetaMask) at Goerli testnet:
 https://mj221.github.io/metagram/
 ```
 </p>
+
+### Roadmap
+`Add DAO for reporting and removing harmful content through consensus voting.`
