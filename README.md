@@ -24,4 +24,8 @@ https://mj221.github.io/metagram/
 </p>
 
 ## Roadmap:
-``Add DAO for reporting and removing harmful content through consensus voting []``
+```
+- Add DAO for reporting and removing harmful content through consensus voting []
+- Add post time out for blocking spams
+- Add a intuitive user search function
+```
