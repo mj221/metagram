@@ -27,3 +27,9 @@ https://mj221.github.io/metagram/
 ```
 - Add DAO for reporting and removing harmful content through consensus voting []
 ```
+
+<hr/>
+<p align="center">
+ <i>MetaGram is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact. 
+ </i>
+</p>
