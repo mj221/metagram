@@ -6,19 +6,15 @@ Currently runs on Goerli test network. Tipping can be done with testnet ether.
 ```
 Contract Address: https://goerli.etherscan.io/address/0xf58db6d6e7e1faa2423feb294a6f4feaef8dffb2
 ```
-<p>
-<hr style="border:2px solid gray"> Preview: </hr>
+
+<h2 align="center">
+ Animated Preview
+</h2>
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/50122869/154102146-26cd1420-5ea0-4218-8b7d-fab8ffe339a0.gif">
 </p>
-
-![Screen Shot 2022-02-14 at 10 13 11 am](https://user-images.githubusercontent.com/50122869/153782207-476c74a4-5455-4334-823d-26afddcdc5a6.png)
-
-
-<p>
-<hr style="border:2px solid gray"> Animated showcase: </hr>
-</p>
-
-![metagram](https://user-images.githubusercontent.com/50122869/153784752-f9041b7f-fa93-4514-8c28-348dbe0c1ead.gif)
-
 
 <hr style="border:2px solid gray"> </hr>
 <p>
@@ -27,4 +23,15 @@ Access here with a Ethereum compatible browser (MetaMask) at Goerli testnet:
 ```
 https://mj221.github.io/metagram/
 ```
+</p>
+
+## Roadmap:
+```
+- Add DAO for reporting and removing harmful content through consensus voting []
+```
+
+<hr/>
+<p align="center">
+ <i>MetaGram is released under MIT license. You are free to use, modify and distribute this software, as long as the copyright header is left intact. 
+ </i>
 </p>
