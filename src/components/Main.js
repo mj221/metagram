@@ -251,10 +251,10 @@ class Main extends Component {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered>
                   <Modal.Body>
-                  <p className="text-center mt-2">
-                    <img src={`https://ipfs.infura.io/ipfs/${this.state.imageHash}`}/>
-                    
-                  </p>
+                    <p className="text-center mt-2">
+                      <img style={{maxWidth: '450px'}} src={`https://ipfs.infura.io/ipfs/${this.state.imageHash}`}/>
+                      
+                    </p>
                   </Modal.Body>
                 
                 </Modal>
@@ -305,7 +305,7 @@ class Main extends Component {
                                   controls>
                                 </video>} */}
                                 {image.format === "image"
-                                ? <LazyLoadImage effect="blur" src={`https://ipfs.infura.io/ipfs/${image.hash}`}/>
+                                ? <LazyLoadImage style={{maxWidth: '420px'}}  effect="blur" src={`https://ipfs.infura.io/ipfs/${image.hash}`}/>
                                 : 
                                 <LazyLoad><video 
                                   className="embed-responsive embed-responsive-16by9 ml-1" 
