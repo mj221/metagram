@@ -33,6 +33,19 @@ class App extends Component {
             }else {console.log("MetaMask account may not be connected");}//found not address, which mean this wallet is not logged in
         });
     }
+    window.ethereum.on('accountsChanged', async (accounts) => {
+      // console.log("Account changed: ", accounts) 
+      if (accounts[0] != null){
+        this.setState({ account: accounts[0] })
+      } else{
+        window.location.reload();
+      }
+      this.loadBlockchainData(this.props.dispatch)
+    })
+
+    window.ethereum.on('chainChanged', (chainId) => {
+        window.location.reload();
+    })
   }
   async loadWeb3() {
     if (window.ethereum) {
