@@ -34,13 +34,7 @@ class App extends Component {
         });
     }
     window.ethereum.on('accountsChanged', async (accounts) => {
-      // console.log("Account changed: ", accounts) 
-      if (accounts[0] != null){
-        this.setState({ account: accounts[0] })
-      } else{
-        window.location.reload();
-      }
-      this.loadBlockchainData(this.props.dispatch)
+      window.location.reload()
     })
 
     window.ethereum.on('chainChanged', (chainId) => {
