@@ -1,16 +1,16 @@
 {
   "main.css": "/metagram/static/css/main.5f25af0e.chunk.css",
-  "main.js": "/metagram/static/js/main.8a93e8a0.chunk.js",
-  "main.js.map": "/metagram/static/js/main.8a93e8a0.chunk.js.map",
+  "main.js": "/metagram/static/js/main.41d97546.chunk.js",
+  "main.js.map": "/metagram/static/js/main.41d97546.chunk.js.map",
   "static/css/1.89e01983.chunk.css": "/metagram/static/css/1.89e01983.chunk.css",
-  "static/js/1.bfaa1522.chunk.js": "/metagram/static/js/1.bfaa1522.chunk.js",
-  "static/js/1.bfaa1522.chunk.js.map": "/metagram/static/js/1.bfaa1522.chunk.js.map",
+  "static/js/1.358f04b8.chunk.js": "/metagram/static/js/1.358f04b8.chunk.js",
+  "static/js/1.358f04b8.chunk.js.map": "/metagram/static/js/1.358f04b8.chunk.js.map",
   "runtime~main.js": "/metagram/static/js/runtime~main.aca63c8f.js",
   "runtime~main.js.map": "/metagram/static/js/runtime~main.aca63c8f.js.map",
-  "static/css/main.5f25af0e.chunk.css.map": "/metagram/static/css/main.5f25af0e.chunk.css.map",
   "static/media/mglogo.png": "/metagram/static/media/mglogo.a492d5d2.png",
   "static/css/1.89e01983.chunk.css.map": "/metagram/static/css/1.89e01983.chunk.css.map",
+  "static/css/main.5f25af0e.chunk.css.map": "/metagram/static/css/main.5f25af0e.chunk.css.map",
   "index.html": "/metagram/index.html",
-  "precache-manifest.cf13fb1c0cad263fd3edbbbd2e42232d.js": "/metagram/precache-manifest.cf13fb1c0cad263fd3edbbbd2e42232d.js",
+  "precache-manifest.6a3824595736e63e59746b33b3d1ef7e.js": "/metagram/precache-manifest.6a3824595736e63e59746b33b3d1ef7e.js",
   "service-worker.js": "/metagram/service-worker.js"
 }
