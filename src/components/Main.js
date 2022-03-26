@@ -203,6 +203,7 @@ class Main extends Component {
           <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px' }}>
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
+              
               <div className="d-flex flex-row" style={{justifyContent:"space-between"}}>
                 <div className="mt-1">
                   {content}

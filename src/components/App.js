@@ -194,9 +194,11 @@ class App extends Component {
         this.setState({images: this.state.imagesAlt})
         this.setState({imagesAlt: []})
       }
+      this.setState({images: this.state.images.sort((a,b) => b.id - a.id)})
       this.setState({
         images: this.state.images.filter(a => a.author.includes(authorHash))
       })
+
     }
     this.setState({loading: false})
   }
